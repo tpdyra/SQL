@@ -1,0 +1,44 @@
+### Commonly used Git Code ###
+
+git status
+  a quick check to see how your local machine differs from the master branch on GitHub
+
+git checkout -b _____
+  in the blank space, add your branch name
+
+git checkout master
+  switch back to master branch
+
+git checkout yourbranchname
+  if you already have a branch use this command to move into this branch. Typically move from master to personal.
+
+git pull
+  make sure to pull down any chnages made by others
+
+git add .
+  add all files that you will be commiting - you can also specifiy a file path if it is only one file you want to add
+
+git commit -m "your message here"
+  commiting all files and adding he message your reviewer will see
+
+git push
+  pushing all files up to Github to live on the cloud
+
+git push --set-upstream-origin yourbranchname
+  psuing updates to GitHub using your new branch
+
+git reset --hard
+  resets your git environment
+
+#########################################################################################################################
+
+### Basic Command Line Commands ###
+cd filename
+  stands for change directory
+  use this to enter your files - the filename must be exactly how it is named on your local machine
+
+ls
+  shows you all files in that directory
+
+cd ..
+  backtracks from current directory
